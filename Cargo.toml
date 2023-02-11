@@ -19,3 +19,10 @@ features = [
   "Foundation",
   "System",
 ]
+
+[profile.release]
+opt-level=3
+debug=0
+strip=true
+lto=true
+panic="abort"
